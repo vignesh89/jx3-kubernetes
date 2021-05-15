@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: Job
+spec:
+  template:
+    spec:
+      containers:
+      - env:
+        - name: KUBEAPPLY
+          value: kapp-apply
+        - name: HTTP_PROXY
+          value: http://proxy.esl.cisco.com:8080/
+	- name: HTTPS_PROXY
+  	  value: http://proxy.esl.cisco.com:8080/
+	- name: http_proxy
+  	  value: http://proxy.esl.cisco.com:8080/
+	- name: https_proxy
+          value: http://proxy.esl.cisco.com:8080/
+	- name: NO_PROXY
+	  value: 10.30.196.27,10.30.196.29,10.30.196.29,10.30.196.31,localhost,127.0.0.1,.cisco.com,.local,0,1,2,3,4,5,6,7,8,9
+	- name: no_proxy
+          value: 10.30.196.27,10.30.196.29,10.30.196.29,10.30.196.31,localhost,127.0.0.1,.cisco.com,.local,0,1,2,3,4,5,6,7,8,9
+        name: job
