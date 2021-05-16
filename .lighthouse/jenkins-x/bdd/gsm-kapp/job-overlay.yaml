@@ -9,10 +9,6 @@ spec:
           value: kapp-apply
         - name: HTTP_PROXY
           value: http://proxy.esl.cisco.com:8080/
-        - name: HTTP_PROXY
-          value: http://proxy.esl.cisco.com:8080/
-        - name: HTTP_PROXY
-          value: http://proxy.esl.cisco.com:8080/
         - name: HTTPS_PROXY
           value: http://proxy.esl.cisco.com:8080/
         - name: http_proxy
