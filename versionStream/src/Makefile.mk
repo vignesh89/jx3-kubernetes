@@ -339,7 +339,7 @@ push-pr-branch:
 push:
 
 	@git pull
-	@git push https://vignesh89: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@github.com/vignesh89/jx3-kubernetes.git
+	@git push https://vignesh89:Scm%401989@github.com/vignesh89/jx3-kubernetes.git
 
 .PHONY: release
 release: lint
