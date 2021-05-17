@@ -337,10 +337,9 @@ push-pr-branch:
 
 .PHONY: push
 push:
-	@git remote rm origin
-	@git remote add origin https://vignesh89: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@github.com/vignesh89/jx3-kubernetes.git
+
 	@git pull
-	@git push --set-upstream origin main
+	@git push https://vignesh89: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@github.com/vignesh89/jx3-kubernetes.git
 
 .PHONY: release
 release: lint
