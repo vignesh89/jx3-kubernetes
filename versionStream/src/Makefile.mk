@@ -292,7 +292,7 @@ kubectl-apply:
 kapp-apply:
 	@echo "using kapp to apply resources"
 
-	kapp deploy -a jx -f $(OUTPUT_DIR) -y
+	kapp deploy -a jx -f $(OUTPUT_DIR) -y --dangerous-override-ownership-of-existing-resources
 
 # lets apply any infrastructure specific labels or annotations to enable IAM roles on ServiceAccounts etc
 	jx gitops postprocess
