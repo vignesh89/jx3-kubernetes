@@ -25,7 +25,7 @@ spec:
       annotations:
         prometheus.io/port: "2112"
         prometheus.io/scrape: "true"
-        git.jenkins-x.io/sha: '5e44dbfc7acd58cb5160091f1107627452c4d634'
+        git.jenkins-x.io/sha: '7fd51f83ce4265184e9cf5e3f260f9b396b8dd9c'
         jenkins-x.io/hash: 'a4efdedcc444692778932f14f54e3c1822936fa059b07b4ec1ad27cd4de5da0b'
     spec:
       serviceAccountName: lighthouse-webhooks
