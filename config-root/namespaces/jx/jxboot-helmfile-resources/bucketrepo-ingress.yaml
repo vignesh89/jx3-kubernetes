@@ -17,4 +17,4 @@ spec:
               serviceName: bucketrepo
               servicePort: 80
             path: "/"
-      host: bucketrepo-jx.10.30.196.244.nip.io
+      host: bucketrepo-jx.jx.dnac.ciscolabs.com
